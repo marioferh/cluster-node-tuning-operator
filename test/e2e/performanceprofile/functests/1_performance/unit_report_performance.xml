@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite name="Performance Addon Operator e2e tests" tests="1" failures="0" errors="0" time="9.249">
+      <testcase name="[rfe_id:27350][performance]Topology Manager [test_id:26932][crit:high][vendor:cnf-qe@redhat.com][level:acceptance] should be enabled with the policy specified in profile" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Tuned CRs generated from profile [test_id:31748] Should have the expected name for tuned from the profile owner object" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Tuned CRs generated from profile [test_id:37127] Node should point to right tuned profile" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Pre boot tuning adjusted by tuned  [test_id:31198] Should set CPU affinity kernel argument" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Pre boot tuning adjusted by tuned  [test_id:32702] Should set CPU isolcpu&#39;s kernel argument managed_irq flag" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Pre boot tuning adjusted by tuned  [test_id:27081][crit:high][vendor:cnf-qe@redhat.com][level:acceptance] Should set workqueue CPU mask" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Pre boot tuning adjusted by tuned  [test_id:32375][crit:high][vendor:cnf-qe@redhat.com][level:acceptance] initramfs should not have injected configuration" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Pre boot tuning adjusted by tuned  [test_id:35363][crit:high][vendor:cnf-qe@redhat.com][level:acceptance] stalld daemon is running on the host" classname="Performance Addon Operator e2e tests" time="2.486856911"></testcase>
+      <testcase name="[rfe_id:27368][performance] Pre boot tuning adjusted by tuned  [test_id:42400][crit:medium][vendor:cnf-qe@redhat.com][level:acceptance] stalld daemon is running as sched_fifo" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Pre boot tuning adjusted by tuned  [test_id:42696][crit:medium][vendor:cnf-qe@redhat.com][level:acceptance] Stalld runs in higher priority than ksoftirq and rcu{c,b}" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Additional kernel arguments added from perfomance profile [test_id:28611][crit:high][vendor:cnf-qe@redhat.com][level:acceptance] Should set additional kernel arguments on the machine" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Tuned kernel parameters [test_id:28466][crit:high][vendor:cnf-qe@redhat.com][level:acceptance] Should contain configuration injected through openshift-node-performance profile" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] RPS configuration Should have the correct RPS configuration" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Network latency parameters adjusted by the Node Tuning Operator [test_id:28467][crit:high][vendor:cnf-qe@redhat.com][level:acceptance] Should contain configuration injected through the openshift-node-performance profile" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] KubeletConfig experimental annotation should override system-reserved memory" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Create second performance profiles on a cluster [test_id:32364] Verifies that cluster can have multiple profiles" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Verify API Conversions  when the GloballyDisableIrqLoadBalancing field set to false should preserve the value during the v1 &lt;-&gt; v2 conversion" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Verify API Conversions  when the GloballyDisableIrqLoadBalancing field set to true should preserve the value during the v1 &lt;-&gt; v2 conversion" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Verify API Conversions when the performance profile does not contain NUMA field Verifies v1 &lt;-&gt; v1alpha1 conversions" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Verify API Conversions when the performance profile does not contain NUMA field Verifies v1 &lt;-&gt; v2 conversions" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Verify API Conversions [test_id:35887] Verifies v1 &lt;-&gt; v1alpha1 conversions" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Verify API Conversions [test_id:35888] Verifies v1 &lt;-&gt; v2 conversions" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Validation webhook with API version v1alpha1 profile should reject the creation of the profile with overlapping CPUs" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Validation webhook with API version v1alpha1 profile should reject the creation of the profile with no isolated CPUs" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Validation webhook with API version v1alpha1 profile should reject the creation of the profile with the node selector that already in use" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Validation webhook with API version v1 profile should reject the creation of the profile with overlapping CPUs" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Validation webhook with API version v1 profile should reject the creation of the profile with no isolated CPUs" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Validation webhook with API version v1 profile should reject the creation of the profile with the node selector that already in use" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Validation webhook with profile version v2 should reject the creation of the profile with overlapping CPUs" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Validation webhook with profile version v2 should reject the creation of the profile with no isolated CPUs" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27368][performance] Validation webhook with profile version v2 should reject the creation of the profile with the node selector that already in use" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[performance]RT Kernel [test_id:26861][crit:high][vendor:cnf-qe@redhat.com][level:acceptance] should have RT kernel enabled" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[performance]RT Kernel [test_id:28526][crit:high][vendor:cnf-qe@redhat.com][level:acceptance] a node without performance profile applied should not have RT kernel installed" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[ref_id: 40307][pao]Resizing Network Queues Updating performance profile for netqueues [test_id:40308][crit:high][vendor:cnf-qe@redhat.com][level:acceptance] Network device queues Should be set to the profile&#39;s reserved CPUs count " classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[ref_id: 40307][pao]Resizing Network Queues Updating performance profile for netqueues [test_id:40542] Verify the number of network queues of all supported network interfaces are equal to reserved cpus count" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[ref_id: 40307][pao]Resizing Network Queues Updating performance profile for netqueues [test_id:40543] Add interfaceName and verify the interface netqueues are equal to reserved cpus count." classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[ref_id: 40307][pao]Resizing Network Queues Updating performance profile for netqueues [test_id:40545] Verify reserved cpus count is applied to specific supported networking devices using wildcard matches" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[ref_id: 40307][pao]Resizing Network Queues Updating performance profile for netqueues [test_id:40668] Verify reserved cpu count is added to networking devices matched with vendor and Device id" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[performance]Hugepages [rfe_id:27369]when NUMA node specified [test_id:27752][crit:high][vendor:cnf-qe@redhat.com][level:acceptance] should be allocated on the specifed NUMA node " classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[performance]Hugepages with multiple sizes [test_id:34080] should be supported and available for the container usage" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[performance]Hugepages [rfe_id:27354]Huge pages support for container workloads [test_id:27477][crit:high][vendor:cnf-qe@redhat.com][level:acceptance] Huge pages support for container workloads" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27363][performance] CPU Management Verification of configuration on the worker node [test_id:28528][crit:high][vendor:cnf-qe@redhat.com][level:acceptance] Verify CPU reservation on the node" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27363][performance] CPU Management Verification of configuration on the worker node [test_id:37862][crit:high][vendor:cnf-qe@redhat.com][level:acceptance] Verify CPU affinity mask, CPU reservation and CPU isolation on worker node" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27363][performance] CPU Management Verification of configuration on the worker node [test_id:34358] Verify rcu_nocbs kernel argument on the node" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27363][performance] CPU Management Verification of cpu manager functionality Verify CPU usage by stress PODs [test_id:37860] Non-guaranteed POD can work on any CPU" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27363][performance] CPU Management Verification of cpu manager functionality Verify CPU usage by stress PODs [test_id:27492] Guaranteed POD should work on isolated cpu" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27363][performance] CPU Management when pod runs with the CPU load balancing runtime class [test_id:32646] should disable CPU load balancing for CPU&#39;s used by the pod" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27363][performance] CPU Management Verification that IRQ load balance can be disabled per POD [test_id:36364] should disable IRQ balance for CPU where POD is running" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27363][performance] CPU Management when reserved CPUs specified [test_id:49147] should run infra containers on reserved CPUs" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27363][performance] CPU Management when strict NUMA aligment is requested [test_id:49149] should reject pods which request integral CPUs not aligned with machine SMT level" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27363][performance] CPU Management Hyper-thread aware scheduling for guaranteed pods Verify Hyper-Thread aware scheduling for guaranteed pods [test_id:46959] Number of CPU requests as multiple of SMT count allowed when HT enabled" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27363][performance] CPU Management Hyper-thread aware scheduling for guaranteed pods Verify Hyper-Thread aware scheduling for guaranteed pods [test_id:46544] Odd number of CPU requests allowed when HT disabled" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27363][performance] CPU Management Hyper-thread aware scheduling for guaranteed pods Verify Hyper-Thread aware scheduling for guaranteed pods [test_id:46538] HT aware scheduling on SNO cluster" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[rfe_id:27363][performance] CPU Management Hyper-thread aware scheduling for guaranteed pods Verify Hyper-Thread aware scheduling for guaranteed pods [test_id:46539] HT aware scheduling on SNO cluster and Workload Partitioning enabled" classname="Performance Addon Operator e2e tests" time="0">
+          <skipped></skipped>
+      </testcase>
+  </testsuite>

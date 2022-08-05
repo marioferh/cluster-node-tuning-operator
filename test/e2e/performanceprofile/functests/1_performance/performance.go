@@ -191,7 +191,7 @@ var _ = Describe("[rfe_id:27368][performance]", func() {
 			}
 		})
 
-		It("[test_id:35363][crit:high][vendor:cnf-qe@redhat.com][level:acceptance] stalld daemon is running on the host", func() {
+		FIt("[test_id:35363][crit:high][vendor:cnf-qe@redhat.com][level:acceptance] stalld daemon is running on the host", func() {
 			for _, node := range workerRTNodes {
 				tuned := nodes.TunedForNode(&node, RunningOnSingleNode)
 				_, err := pods.WaitForPodOutput(testclient.K8sClient, tuned, []string{"pidof", "stalld"})

@@ -186,7 +186,7 @@ func testProfile() *performancev2.PerformanceProfile {
 			},
 			NodeSelector: testutils.NodeSelectorLabels,
 			RealTimeKernel: &performancev2.RealTimeKernel{
-				Enabled: pointer.BoolPtr(true),
+				Enabled: pointer.BoolPtr(false),
 			},
 			NUMA: &performancev2.NUMA{
 				TopologyPolicy: pointer.StringPtr("single-numa-node"),
